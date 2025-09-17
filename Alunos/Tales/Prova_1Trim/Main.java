@@ -5,10 +5,10 @@ public class Main {
         Scanner in = new Scanner(System.in);
         Biblioteca bib = new Biblioteca();
 
-        bib.cadastrarCliente("Ana");//id:1
-        bib.cadastrarCliente("Bruno");//id:2
-        bib.cadastrarCliente("Maria");//id:3
-        bib.cadastrarCliente("Mario");//id:4
+        bib.cadastrarCliente("Ana");
+        bib.cadastrarCliente("Bruno");
+        bib.cadastrarCliente("Maria");
+        bib.cadastrarCliente("Mario");
         bib.cadastrarLivroComum("Diario de um banana", "Jeff Kinney");
         bib.cadastrarLivroComum("Harry Potter", "Sei la");
         bib.cadastrarLivroRaro("O Servo dos Ossos", "Não tenho ideia", "Único exemplar");

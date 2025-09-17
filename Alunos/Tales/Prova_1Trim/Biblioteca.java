@@ -12,7 +12,6 @@ private int proxIdLivro = 1;
 private int proxIdCliente = 1;
 
 
-// ===== Cadastros =====
 public Cliente cadastrarCliente(String nome) {
 Cliente c = new Cliente(proxIdCliente++, nome);
 clientes.add(c);
